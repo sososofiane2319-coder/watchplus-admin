@@ -27,7 +27,7 @@ function getDBConnection() {
     loadEnv($envPath);
 
     $host = getenv('DB_HOST') ?: 'localhost';
-    $dbname = getenv('DB_NAME') ?: 'watchplus_db';
+    $dbname = getenv('DB_NAME') ?: 'lampdb';
     $user = getenv('DB_USER') ?: 'root';
     $pass = getenv('DB_PASS') ?: '';
 
